@@ -1,0 +1,6 @@
+{
+  "name": "FitNest",
+  "description": "Discover FitNest's delicious homemade healthy food products, including Biotin Laddu, Peanut Butter Overnight Oats, Granola and Muesli.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Poppins", "Hind Siliguri", system-ui, sans-serif;
+  --font-bengali: "Hind Siliguri", sans-serif;
+
+  --color-brand-primary: #244C35;
+  --color-brand-secondary: #3D694B;
+  --color-brand-cream: #FFF8E9;
+  --color-brand-beige: #F3E8D5;
+  --color-brand-gold: #D9A441;
+  --color-brand-dark: #263126;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF8E9;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4B298;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3D694B;
+}
